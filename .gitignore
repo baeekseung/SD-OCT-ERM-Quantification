@@ -1,6 +1,4 @@
-ERM-Project-Dataset/RawData_bmp
-ERM-Project-Dataset/RawData_png
-ERM-Project-Dataset/SD-OCT
-ERM-Project-Dataset/SD-OCT_640x640
-ERM-Project-Dataset/SourceData
-
+runs/
+**/runs/
+*.pt
+**/*.pt
