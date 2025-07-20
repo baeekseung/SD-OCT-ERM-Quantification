@@ -1,11 +1,10 @@
 # SD-OCT-based Epiretinal Membrane Diagnostic Assistant System
 
-## 📌 Instruction
-이 프로젝트는 Spectral-Domain Optical Coherence Tomography (SD-OCT)를 기반으로 Epiretinal Membrane (ERM)을 저비용으로 신속하게 감지하고 정량화하는 AI 시스템을 개발하는 것을 목표로 합니다.  
-본 연구에서는 SD-OCT의 B-scan 이미지를 활용하여 SS-OCT 수준의 en face ERM 이미지를 생성하는 기법을 도입하였습니다.
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge)
+![YOLO](https://img.shields.io/badge/YOLO-013243?style=for-the-badge)
+![Pillow](https://img.shields.io/badge/Pillow-CC66CC?style=for-the-badge)
 
-## 🌟 Features
-- ✅ SD-OCT 기반 ERM 검출: SS-OCT보다 낮은 비용과 빠른 속도로 ERM을 감지
-- 📊 ERM 정량화 기능: YOLOv5 기반 ERM 탐지 및 면적 분석
-- 🔬 Retina 두께 비교 분석: ERM이 망막 두께에 미치는 영향 정량화
-- 📈 머신러닝 기반 진단: Deep Learning을 활용하여 높은 정확도로 ERM 탐지
+## Introduction
+This project presents a low-cost and efficient method for detecting and quantifying Epiretinal Membranes (ERM) using Spectral-Domain Optical Coherence Tomography (SD-OCT). By applying deep learning techniques—specifically, YOLO object detection—we generate en face "ERM Projection Images" from B-scan data, enabling intuitive visualization and accurate measurement of ERM areas. The method also introduces a novel approach to quantify the association between ERM and retinal thickness, enhancing clinical decision-making. Our approach aims to bridge the diagnostic performance gap between SD-OCT and Swept-Source OCT (SS-OCT) while maintaining accessibility and reducing diagnostic burden.
